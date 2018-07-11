@@ -1,0 +1,3 @@
+define(["handlebars"], function(Handlebars) { return Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<div class=\"panel\">\n	<div class=\"panel_body fullwidth\">\n		<nav class=\"main_menu\">\n			<ul>\n				<li><a href=\"/\">Home</a></li>\n				<li><a href=\"/my-background\">Background</a></li>\n				<li><a href=\"/treatment-expertise\">Treatment Expertise</a></li>\n				<li><a href=\"/treatment-philosophy\">Treatment Philosophy</a></li>\n				<li><a href=\"/practice-areas\">Practice Areas</a></li>\n				<li><a href=\"/location\">Location</a></li>\n				<li><a href=\"/meditation\">Guided Meditation</a></li>\n			</ul>\n		</nav>\n	</div>\n</div>";
+},"useData":true}); });
