@@ -2,7 +2,7 @@ define(["handlebars"], function(Handlebars) { return Handlebars.template({"compi
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
   return "<!DOCTYPE html>\n<html>\n	<head>\n		<title>"
-    + alias4(((helper = (helper = helpers.page_title || (depth0 != null ? depth0.page_title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"page_title","hash":{},"data":data}) : helper)))
+    + alias4(((helper = (helper = helpers.meta_title || (depth0 != null ? depth0.meta_title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"meta_title","hash":{},"data":data}) : helper)))
     + "</title>\n\n		<meta property=\"og:title\" content=\""
     + alias4(((helper = (helper = helpers.meta_title || (depth0 != null ? depth0.meta_title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"meta_title","hash":{},"data":data}) : helper)))
     + "\" />\n		<meta property=\"og:description\" content=\""
