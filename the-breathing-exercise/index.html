@@ -76,10 +76,18 @@
 		
 		<footer class="panel color_4 dark text_center" style="background-color:#33458c; clear: both;">
 			<div class="panel_body">
-				<div class="credits">&copy; 2018 All Rights Reserved</div>
+				<div class="credits">
+					&copy; 
+					<span id="copyright">
+		        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+		    	</span> 
+		    	All Rights Reserved
+		    </div>
 				<div class="wedge-2x"></div>
 			</div>
-		</footer>		
+		</footer>
+		
+		
 	</body>
 
 </html>

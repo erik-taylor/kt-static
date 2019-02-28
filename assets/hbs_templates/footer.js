@@ -1,3 +1,3 @@
 define(["handlebars"], function(Handlebars) { return Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<footer class=\"panel color_4 dark text_center\" style=\"background-color:#33458c; clear: both;\">\n	<div class=\"panel_body\">\n		<div class=\"credits\">&copy; 2018 All Rights Reserved</div>\n		<div class=\"wedge-2x\"></div>\n	</div>\n</footer>";
+    return "<footer class=\"panel color_4 dark text_center\" style=\"background-color:#33458c; clear: both;\">\n	<div class=\"panel_body\">\n		<div class=\"credits\">\n			&copy; \n			<span id=\"copyright\">\n        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>\n    	</span> \n    	All Rights Reserved\n    </div>\n		<div class=\"wedge-2x\"></div>\n	</div>\n</footer>\n\n";
 },"useData":true}); });
