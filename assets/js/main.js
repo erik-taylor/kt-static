@@ -1,13 +1,10 @@
-require.config({
-	baseUrl: '/assets/',
+window.onload = function() {
+	lax.setup() // init
 
-	paths: {
-		// 'jquery': 'vendor/jquery/dist/jquery.min',
-	},
-})
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
 
-require(['jquery'], function ($) {
-	$(document).ready(function () {
-		console.log('requirejs ready to use')
-	})
-})
+	window.requestAnimationFrame(updateLax)
+}
