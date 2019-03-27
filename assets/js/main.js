@@ -7,4 +7,6 @@ window.onload = function() {
 	}
 
 	window.requestAnimationFrame(updateLax)
+
+	var bLazy = new Blazy() // bLazy init
 }
